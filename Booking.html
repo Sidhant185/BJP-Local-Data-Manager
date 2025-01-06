@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Appointment</title>
+    <link rel="stylesheet" href="style booking.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <h2>Booking Appointment</h2>
+            <div class="content">
+                <div class="input-box">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Enter Full Name" name="name" required>
+                </div>
+                <div class="input-box">
+                    <label for="Phone">Phone Number</label>
+                    <input type="tel" placeholder="Enter Your phone number" name="phone" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter Valid Email Address" name="email" required>
+                </div>
+                <div class="input-box">
+                    <label for="password">password</label>
+                    <input type="password" placeholder="Enter New Password" name="password" required>
+                </div>
+                <div class="input-box">
+                    <label for="confirm password"> Confirm password</label>
+                    <input type="password" placeholder="Confirm Password" name="confirmpassword" required>
+                </div>
+                <span class="gender-title" >Gender</span>
+                <div class="gender-category">
+                    <input type="radio" name="Gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="Gender" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="Gender" id="other">
+                    <label for="other">other</label>
+                </div>
+            </div>
+            <div class="alert">
+                <p> By clickling signup you agree to our terms, privacy policy and cookies policy. 
+                    you may receive SMS notification from us and can opt out anytime</p>
+            </div>
+            <div class="button-container">
+                <button>Register</button>
+            </div>
+        </form>
+    </div> 
+</body>
+</html>
